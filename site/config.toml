@@ -1,0 +1,8 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "The Masquerade"
+
+[params]
+description = "Meta description"
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]

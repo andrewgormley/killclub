@@ -1,0 +1,101 @@
+backend:
+  name: git-gateway
+  branch: master
+
+local_backend: true
+
+site_url: https://bakedcreative.co
+display_url: https://bakedcreative.co
+logo_url: https://bakedcreative.co/img/baked-logo.svg
+
+media_folder: "site/static/img"
+public_folder: "img"
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: "pages"
+    label: "Main Pages"
+    files:
+      - file: "site/content/_index.md"
+        label: "Home Page"
+        name: "home"
+        editor:
+          preview: false
+        fields:
+          - {label: "Meta Title", name: "title", widget: "string", required: false}
+          - {label: "Brand Title", name: "brandTitle", widget: "string", required: true}
+          - {label: "Brand Copy", name: "brandCopy", widget: "markdown", required: false}
+          - label: "Roadmap"
+            name: "roadmap"
+            widget: "list"
+            collapsed: false
+            required: false
+            allow_add: true
+            fields:
+              - {label: "Number", name: "mark", widget: "string", required: false}
+              - {label: "Title", name: "title", widget: "string", required: true}
+              - {label: "Copy", name: "copy", widget: "markdown", required: false}
+          - {label: "Roadmap Button Label", name: "roadmapBtnLabel", widget: "string"}
+          - {label: "Roadmap Button Link", name: "roadmapBtnLink", widget: "string"}
+          - label: "FAQ"
+            name: "faq"
+            widget: "list"
+            collapsed: false
+            required: false
+            allow_add: true
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: true}
+              - {label: "Copy", name: "copy", widget: "markdown", required: true}
+  - name: "settings"
+    label: "Settings"
+    editor:
+      preview: false
+    files:
+      - file: "site/data/settings/navigation.yml"
+        label: "Navigation"
+        name: "navigation"
+        fields:
+          - label: "Navigation"
+            name: "nav"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "label", widget: "string"}
+              - {label: "Path", name: "URL", widget: "string"}
+          - {label: "Discord", name: "discord", widget: "string"}
+          - {label: "Instagram", name: "instagram", widget: "string"}
+          - {label: "LinkedIn", name: "linkedin", widget: "string"}
+          - {label: "Vimeo", name: "vimeo", widget: "string"}
+          - {label: "Spotify", name: "spotify", widget: "string"}
+          - {label: "Youtube", name: "youtube", widget: "string"}
+          - {label: "Dribbble", name: "dribbble", widget: "string"}
+          - {label: "Twitter", name: "twitter", widget: "string"}
+      - file: "site/data/settings/footer.yml"
+        label: "Footer"
+        name: "footer"
+        fields:
+          - {label: "Signoff Title", name: "signoff", widget: "string", required: false}
+          - {label: "Copyright", name: "copyright", widget: "string", required: false}
+      - file: "site/config.toml"
+        label: "Site Config"
+        name: "config"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Meta Data"
+            name: "params"
+            widget: "object"
+            fields:
+              - {label: "Meta Description", name: "description", widget: "text"}
+  - name: "basic-pages"
+    identifier_field: title
+    label: "Basic Pages"
+    folder: "site/content"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Meta Title", name: "title", widget: "string"}
+      - {label: "Meta Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}

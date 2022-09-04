@@ -1,0 +1,17 @@
+<!doctype html>
+<html class="transition-all bg-black" lang="{{ $.Site.Language.Lang }}">
+  {{ partial "head" . }}
+  <body class="text-base text-gray-400">
+
+    {{ partial "header" . }}
+
+    {{ block "main" . }}{{ end }}
+
+    {{ partial "footer" . }}
+
+    {{ $script := .Site.Data.webpack.main }}
+    {{ with $script.js }}
+      <script src="{{ relURL . }}"></script>
+    {{ end }}
+  </body>
+</html>

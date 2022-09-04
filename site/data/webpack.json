@@ -1,0 +1,14 @@
+{
+  "cms": {
+    "js": "cms.js"
+  },
+  "main": {
+    "css": "main.css",
+    "js": "main.js"
+  },
+  "": {
+    "html": "admin/index.html",
+    "keep": "fonts/.keep",
+    "json": "a20053f0da217997b314.hot-update.json"
+  }
+}
