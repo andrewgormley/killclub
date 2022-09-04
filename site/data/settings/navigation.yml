@@ -1,14 +1,16 @@
 nav:
-  - {label: 'The Brand', URL: './#brand'}
-  - {label: 'Roadmap', URL: './#roadmap'}
-  - {label: 'FAQ', URL: './#faq'}
-
-discord: ''
-instagram: 'https://www.instagram.com/bakedagency/'
-linkedin: 'https://www.linkedin.com/company/bakedagency/'
-vimeo: 'https://vimeo.com/bakedagency'
-spotify: 'https://open.spotify.com/user/e94lblworgg9ogus8wk7zob9z?si=5111737c44b847c3'
-youtube: ''
-dribbble: ''
-twitter: ''
-creativeBrief: 'http://www.creativebrief.com/agency/baked'
+  - label: The Brand
+    URL: ./#brand
+  - label: Roadmap
+    URL: ./#roadmap
+  - label: FAQ
+    URL: ./#faq
+discord: "https://discord.com/invite/eyaSQm9y8V "
+instagram: " "
+linkedin: " "
+vimeo: " "
+spotify: " "
+youtube: " "
+dribbble: " "
+creativeBrief: http://www.creativebrief.com/agency/baked
+twitter: https://twitter.com/bethemasquerade
