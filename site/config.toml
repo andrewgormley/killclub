@@ -1,8 +1,8 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "The Masquerade"
+title = "The Masquerade | Trust no one"
 
 [params]
-description = "Meta description"
+description = "The Masquerade is an NFT brand driven by a mysterious story set in 1940s London - the height of the Blitz. "
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
