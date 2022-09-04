@@ -4,9 +4,9 @@ backend:
 
 local_backend: true
 
-site_url: https://bakedcreative.co
-display_url: https://bakedcreative.co
-logo_url: https://bakedcreative.co/img/baked-logo.svg
+site_url: https://themasqueradenft.com/
+display_url: https://themasqueradenft.com/
+logo_url: https://themasqueradenft.com/img/masquerade-logo.png
 
 media_folder: "site/static/img"
 public_folder: "img"
