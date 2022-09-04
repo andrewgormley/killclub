@@ -11,9 +11,8 @@ brandCopy: >
 roadmap:
   - mark: "1."
     title: Genesis Mint
-    copy: >
-      Whitelist sale starts 8pm UTC on October 1st, 2022. Public sale starts at
-      8pm UTC on October 2nd, 2022.
+    copy: Guest list sale starts 8pm UTC on December 1st, 2022. Wait list sale
+      starts at 8pm UTC on December 2nd, 2022.
   - mark: "2."
     title: Identity Cards
     copy: >
@@ -137,34 +136,60 @@ roadmapBtnLabel: Join discord to see more
 roadmapBtnLink: https://discord.com/invite/eyaSQm9y8V
 faq:
   - title: WHAT IS THE MINT PRICE?
-    copy: |
-      The Host has set the mint price at 0.088ETH.
+    copy: The Host has set the mint price at 0.088ETH. This will be reviewed 3 days
+      before mint. The Host commits that the mint price is not above $100.
   - title: WHEN WILL THE COLLECTION LAUNCH?
-    copy: >
-      The Host has determined a mint date of October 1, 2022 at 8pm UTC.
+    copy: >-
+      The Host has determined a mint date of December 1, 2022 at 8pm UTC.
 
 
-      There will be an whitelist pre-sale, which will last for 24 hours.
+      The guest list sale will last for 24 hours.
 
 
-      The public sale will begin at 8pm UTC on October 2, 2022 and will last until the supply is sold out.
-  - title: WHAT IS THE WHITELIST?
-    copy: >
-      All whitelist (WL) members will have 24 hours to mint before the public
-      sale.
+      The wait list sale will begin at 8pm UTC on December 2, 2022 and will last until the supply is sold out.
+  - title: WHAT IS THE GUEST LIST?
+    copy: >-
+      Every great party has a guest list and The Masquerade is no exception.
 
 
-      This means WL members are guaranteed the opportunity to mint at least 1 of The Masquerade genesis collection.
+      Our guest list ensures only real people are able to mint, and lets us learn more about those who want to join our community of lost souls.
 
 
-      All remaining supply at the end of the pre-sale will roll in to the public sale.
-  - title: HOW DO I JOIN THE WHITELIST?
-    copy: >
-      Follow @MasqueradeHost and @BeTheMasquerade on Twitter. Engage with
-      tweets, raffles and giveaways.
+      Being on the guest list is the ONLY way to mint The Masquerade.
+
+
+      Join the guest list here: <https://heymint.xyz/the-masquerade>
+
+
+      [](https://heymint.xyz/the-masquerade)We ask you to confirm:
+
+
+      * You follow us on Twitter
+
+      * Are a member of Discord
+
+      * Your email address
+
+      * Your wallet ID
+
+
+      Most importantly, though, we want to hear from YOU. Why do you want to be on the guest list? What brought you to The Masquerade?
+
+
+      Applicants for The Masquerade guest list will be manually reviewed for approval or rejection. Bots entries will be rejected and will not be eligible to mint.
+
+
+      The first 10,000 approved members of the guest list will have 24 hours to mint their tokens from 8pm UTC on 1st December, 2022.
+
+
+      When 24 hours has passed, the next 10,000 approved members on the wait list will have 24 hours to mint their tokens.
+
+
+      And so on.
+  - title: HOW DO I JOIN THE GUEST LIST?
+    copy: "Join the guest list here: <https://heymint.xyz/the-masquerade>"
   - title: WHAT BLOCKCHAIN?
-    copy: |
-      The Ethereum ERC-721 blockchain.
+    copy: The Ethereum ERC-721 blockchain.
   - title: WHAT ABOUT RARITY & TRAITS?
     copy: >
       The Masquerade will have different traits to drive rarity. The collection
@@ -176,8 +201,8 @@ faq:
     copy: |
       See our roadmap on Discord.
   - title: WHEN IS THE REVEAL?
-    copy: |
-      24 hours after sell-out, or 48 hours after mint. Whichever occurs first.
+    copy: 24 hours after sell-out, or 48 hours wait list sale begins. Whichever
+      occurs first.
   - title: HOW MANY TOKENS ARE AVAILABLE?
     copy: |
       10,000.
