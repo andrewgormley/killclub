@@ -136,8 +136,8 @@ roadmapBtnLabel: Join discord to see more
 roadmapBtnLink: https://discord.com/invite/eyaSQm9y8V
 faq:
   - title: WHAT IS THE MINT PRICE?
-    copy: The Host has set the mint price at 0.088ETH. This will be reviewed 3 days
-      before mint. The Host commits that the mint price will not be above $100.
+    copy: The mint price will be set 3 days before mint. The Host commits that the
+      mint price will not be above $100.
   - title: WHEN WILL THE COLLECTION LAUNCH?
     copy: >-
       The Host has determined a mint date of December 1, 2022 at 8pm UTC.
