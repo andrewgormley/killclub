@@ -158,20 +158,22 @@ faq:
       Being on the guest list is the ONLY way to mint The Masquerade.
 
 
-      Join the guest list here: <https://heymint.xyz/the-masquerade>
+      Join the guest list here: ***<https://heymint.xyz/the-masquerade>***
 
 
       [](https://heymint.xyz/the-masquerade)We ask you to confirm:
 
 
-      * You follow us on Twitter
+      * \- You follow us on Twitter
 
-      * Are a member of Discord
+      * \- Are a member of Discord
 
-      * Your email address
+      * \- Your email address
 
-      * Your wallet ID
+      * \- Your wallet ID
 
+
+      \
 
       Most importantly, though, we want to hear from YOU. Why do you want to be on the guest list? What brought you to The Masquerade?
 
