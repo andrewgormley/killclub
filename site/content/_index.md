@@ -134,7 +134,7 @@ roadmap:
 
       Immersed in the night.
 roadmapBtnLabel: Join discord to see more
-roadmapBtnLink: "https://discord.gg/eyaSQm9y8V "
+roadmapBtnLink: https://discord.com/invite/eyaSQm9y8V
 faq:
   - title: WHAT IS THE MINT PRICE?
     copy: |
