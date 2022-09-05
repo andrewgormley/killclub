@@ -115,9 +115,20 @@ roadmap:
 
 
       This is The Masquerade. Trust no one.
+  - mark: "9."
+    title: The Under-Represented
+    copy: >-
+      The Masquerade artwork is provided as a 3D character model with masquerade
+      mask. Example, work-in-progress artwork can be seen here.
+
+
+      The first iteration of the artwork will feature two plain areas - the background and clothing. Lost souls will be granted the ability to request customisations to their artwork in these two areas.
+
+
+      Our vision is to allow for a greater control over your PFP to greater reflect your own personality. This control will grow over time.
   - mark: "10."
     title: The Unknown
-    copy: >
+    copy: >-
       The future in this space is incredibly exciting.
 
 
