@@ -11,8 +11,8 @@ brandCopy: >
 roadmap:
   - mark: "1."
     title: Genesis Mint
-    copy: Guest list sale starts 8pm UTC on December 1st, 2022. Wait list sale
-      starts at 8pm UTC on December 2nd, 2022.
+    copy: Guest list sale starts 8pm UTC on December 6th, 2022. Wait list sale
+      starts at 8pm UTC on December 7th, 2022.
   - mark: "2."
     title: Identity Cards
     copy: >
@@ -140,13 +140,13 @@ faq:
       mint price will not be above $100.
   - title: WHEN WILL THE COLLECTION LAUNCH?
     copy: >-
-      The Host has determined a mint date of December 1, 2022 at 8pm UTC.
+      The Host has determined a mint date of December 6, 2022 at 8pm UTC.
 
 
       The guest list sale will last for 24 hours.
 
 
-      The wait list sale will begin at 8pm UTC on December 2, 2022 and will last until the supply is sold out.
+      The wait list sale will begin at 8pm UTC on December 7, 2022 and will last until the supply is sold out.
   - title: WHAT IS THE GUEST LIST?
     copy: >-
       Every great party has a guest list and The Masquerade is no exception.
@@ -181,7 +181,7 @@ faq:
       Applicants for The Masquerade guest list will be manually reviewed for approval or rejection. Bots entries will be rejected and will not be eligible to mint.
 
 
-      The first 10,000 approved members of the guest list will have 24 hours to mint their tokens from 8pm UTC on 1st December, 2022.
+      The first 10,000 approved members of the guest list will have 24 hours to mint their tokens from 8pm UTC on 6th December, 2022.
 
 
       When 24 hours has passed, the next 10,000 approved members on the wait list will have 24 hours to mint their tokens.

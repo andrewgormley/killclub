@@ -4,9 +4,9 @@ backend:
 
 local_backend: true
 
-site_url: https://bakedcreative.co
-display_url: https://bakedcreative.co
-logo_url: https://bakedcreative.co/img/baked-logo.svg
+site_url: https://themasqueradenft.com/
+display_url: https://themasqueradenft.com/
+logo_url: https://themasqueradenft.com/img/masquerade-logo.png
 
 media_folder: "site/static/img"
 public_folder: "img"
@@ -65,14 +65,16 @@ collections:
             fields:
               - {label: "Name", name: "label", widget: "string"}
               - {label: "Path", name: "URL", widget: "string"}
-          - {label: "Discord", name: "discord", widget: "string"}
-          - {label: "Instagram", name: "instagram", widget: "string"}
-          - {label: "LinkedIn", name: "linkedin", widget: "string"}
-          - {label: "Vimeo", name: "vimeo", widget: "string"}
-          - {label: "Spotify", name: "spotify", widget: "string"}
-          - {label: "Youtube", name: "youtube", widget: "string"}
-          - {label: "Dribbble", name: "dribbble", widget: "string"}
-          - {label: "Twitter", name: "twitter", widget: "string"}
+          - {label: "Discord", name: "discord", widget: "string", required: false}
+          - {label: "Instagram", name: "instagram", widget: "string", required: false}
+          - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
+          - {label: "Vimeo", name: "vimeo", widget: "string", required: false}
+          - {label: "Spotify", name: "spotify", widget: "string", required: false}
+          - {label: "Youtube", name: "youtube", widget: "string", required: false}
+          - {label: "Dribbble", name: "dribbble", widget: "string", required: false}
+          - {label: "Twitter", name: "twitter", widget: "string", required: false}
+          - {label: "Creative Brief", name: "creativeBrief", widget: "string", required: false}
+          - {label: "OpenSea", name: "openSea", widget: "string", required: false}
       - file: "site/data/settings/footer.yml"
         label: "Footer"
         name: "footer"
