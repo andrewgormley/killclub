@@ -2,10 +2,6 @@
 title: The Masquerade NFT License
 description: The Masquerade NFT License
 ---
-# The Masquerade NFT License
-
-Meta Description: The Masquerade NFT License
-
 Summary of Licence
 
 * You have complete freedom to use the Art and NFT for commercial and personal use including to make sales of derivative works, for so long as you own the NFT.
