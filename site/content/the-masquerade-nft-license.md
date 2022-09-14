@@ -64,4 +64,4 @@ Revenue Share means 10%;
 
 Third Party IP means any third party Intellectual Property Rights; and 
 
-Website means https://www.themasqueradenft.com and/or any other website we may operate from time to time0
+Website means https://www.themasqueradenft.com and/or any other website we may operate from time to time
