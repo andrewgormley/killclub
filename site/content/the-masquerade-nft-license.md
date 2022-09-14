@@ -4,7 +4,7 @@ description: The Masquerade NFT License
 ---
 **Summary**
 
-You have freedom to use the Art and NFT for commercial and personal use, including to create and make sales of derivative works, for as you own the NFT. 
+]You have freedom to use the Art and NFT for commercial and personal use. This includes to create and make sales of derivative works, for as long as you own the NFT.
 
 To protect our community and collection value, the licence has some limitations, specifically on the use of our NFTs in connection with damaging behaviour, for example: hate crimes or racism, and we retain the underlying copyright to enable us to enforce this. 
 
