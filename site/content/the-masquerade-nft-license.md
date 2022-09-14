@@ -2,13 +2,13 @@
 title: The Masquerade NFT License
 description: The Masquerade NFT License
 ---
-Summary of Licence 
+**Summary**
 
-You have complete freedom to use the Art and NFT for commercial and personal use including to make sales of derivative works, for so long as you own the NFT. 
+You have freedom to use the Art and NFT for commercial and personal use, including to create and make sales of derivative works, for as you own the NFT. 
 
-To protect our community and the value of our collection, the licence has some limitations, specifically on the use of our NFTs in connection with damaging behaviour, for example hate crimes or racism, and we retain the underlying copyright to enable us to enforce this. 
+To protect our community and collection value, the licence has some limitations, specifically on the use of our NFTs in connection with damaging behaviour, for example: hate crimes or racism, and we retain the underlying copyright to enable us to enforce this. 
 
-1.0 Licence in NFTs 
+**1.0 Licence in NFTs** 
 
 1.1 We, Th3 Masqu3rad3 Ltd, (The Masquerade, us, we) grant, to the party who Owns an NFT we have issued (Licensee, you), for the time that party Owns the NFT, a worldwide, non-exclusive, royalty-free licence in respect of the Art associated with the NFT purchase (Licence). 
 
@@ -26,7 +26,7 @@ To protect our community and the value of our collection, the licence has some l
 
 1.8 For the avoidance of any doubt: (a) the restrictions on the Licence survive termination or assignment transfer of this Licence; (b) this Licence is limited to the time you Own the NFT and upon your sale of the NFT to another party the Licence is assigned to the purchaser of the NFT and your rights under the Licence cease to have any effect, and you must draw to the other party’s attention the contents of this Licence prior to your sale of the NFT; and (c) the sale of your NFT does not constitute a “commercial use” of your NFT for the purposes of this Licence. 
 
-2.0 Commercial and derivative rights 
+**2.0 Commercial and derivative rights** 
 
 2.1 You acknowledge that the NFT you Own contains individual layered files and traits that are owned by us. 
 
@@ -36,17 +36,17 @@ To protect our community and the value of our collection, the licence has some l
 
 2.4 For the avoidance of doubt, the individual layered files, traits and Art of the NFT you Own may not be used individually, separately or in combination of each other, other than as provided above, for commercial or any other purpose. 
 
-3.0 Permissible transfers of the NFT you Own 
+**3.0 Permissible transfers of the NFT you Own** 
 
 3.1 You and any future owner of the NFT you Own have a limited right to transfer the NFT you Own (Secondary Sale), provided that: (a) the transferee accepts all of the terms of this Licence and the current NFT Terms; (b) prior to the transfer, you have not breached this Licence or the current NFT Terms; and (c) we will be paid the Revenue Share percentage of the gross amounts paid by such party to the Secondary Sale. 
 
 3.2 For the avoidance of doubt, the additional fees under clause 3.1(c) of this Licence do not include, and are not intended to cover, any additional fees imposed or required by the platform through which any Secondary Sale is being conducted. 
 
-4.0 Termination 
+**4.0 Termination** 
 
 4.1 In the event that the Owner of an NFT breaches the terms of this Licence, then we may terminate the Licence without notice and may take further steps including publishing the termination of the Licence and/or taking steps to seek to block the Art or the listing of an NFT subject to termination from any third party sites. Upon Termination any right to use the Art associated with an NFT which is Owned immediately ceases. 
 
-5.0 Definitions In this Licence: 
+**5.0 Definitions In this Licence:** 
 
 Art means any art, design, wording and drawings (in any form or media, including, without limitation, video or photographs) that are associated with an NFT that you Own; 
 
