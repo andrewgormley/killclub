@@ -4,9 +4,9 @@ backend:
 
 local_backend: true
 
-site_url: https://bakedcreative.co/
-display_url: https://bakedcreative.co/
-logo_url: https://bakedcreative.co/img/baked-logo.svg
+site_url: https://golden-marzipan-17fbf3.netlify.app/
+display_url: https://golden-marzipan-17fbf3.netlify.app/
+logo_url: https://golden-marzipan-17fbf3.netlify.app/img/kill-club.png
 
 media_folder: "site/static/img"
 public_folder: "img"
