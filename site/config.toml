@@ -1,8 +1,8 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "The Masquerade | Trust No One"
+title = "KillClub. | Creative Production Company"
 
 [params]
-description = "The Masquerade is an NFT brand driven by a mysterious story set in 1940s London - the height of the Blitz. "
+description = "Creative Production Company"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]

@@ -4,9 +4,9 @@ backend:
 
 local_backend: true
 
-site_url: https://themasqueradenft.com/
-display_url: https://themasqueradenft.com/
-logo_url: https://themasqueradenft.com/img/masquerade-logo.png
+site_url: https://bakedcreative.co/
+display_url: https://bakedcreative.co/
+logo_url: https://bakedcreative.co/img/baked-logo.svg
 
 media_folder: "site/static/img"
 public_folder: "img"
@@ -18,7 +18,7 @@ slug:
 
 collections:
   - name: "pages"
-    label: "Main Pages"
+    label: "Pages"
     files:
       - file: "site/content/_index.md"
         label: "Home Page"
@@ -27,60 +27,16 @@ collections:
           preview: false
         fields:
           - {label: "Meta Title", name: "title", widget: "string", required: false}
-          - {label: "Brand Title", name: "brandTitle", widget: "string", required: true}
-          - {label: "Brand Copy", name: "brandCopy", widget: "markdown", required: false}
-          - label: "Roadmap"
-            name: "roadmap"
-            widget: "list"
-            collapsed: false
-            required: false
-            allow_add: true
-            fields:
-              - {label: "Number", name: "mark", widget: "string", required: false}
-              - {label: "Title", name: "title", widget: "string", required: true}
-              - {label: "Copy", name: "copy", widget: "markdown", required: false}
-          - {label: "Roadmap Button Label", name: "roadmapBtnLabel", widget: "string"}
-          - {label: "Roadmap Button Link", name: "roadmapBtnLink", widget: "string"}
-          - label: "FAQ"
-            name: "faq"
-            widget: "list"
-            collapsed: false
-            required: false
-            allow_add: true
-            fields:
-              - {label: "Title", name: "title", widget: "string", required: true}
-              - {label: "Copy", name: "copy", widget: "markdown", required: true}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Copy", name: "copy", widget: "string", required: false}
+          - {label: "Email", name: "email", widget: "string", required: false}
+          - {label: "Link", name: "link", widget: "string", required: false}
+          - {label: "Background Video", name: "video", widget: "file", required: false}
   - name: "settings"
     label: "Settings"
     editor:
       preview: false
     files:
-      - file: "site/data/settings/navigation.yml"
-        label: "Navigation"
-        name: "navigation"
-        fields:
-          - label: "Navigation"
-            name: "nav"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "label", widget: "string"}
-              - {label: "Path", name: "URL", widget: "string"}
-          - {label: "Discord", name: "discord", widget: "string", required: false}
-          - {label: "Instagram", name: "instagram", widget: "string", required: false}
-          - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
-          - {label: "Vimeo", name: "vimeo", widget: "string", required: false}
-          - {label: "Spotify", name: "spotify", widget: "string", required: false}
-          - {label: "Youtube", name: "youtube", widget: "string", required: false}
-          - {label: "Dribbble", name: "dribbble", widget: "string", required: false}
-          - {label: "Twitter", name: "twitter", widget: "string", required: false}
-          - {label: "Creative Brief", name: "creativeBrief", widget: "string", required: false}
-          - {label: "OpenSea", name: "openSea", widget: "string", required: false}
-      - file: "site/data/settings/footer.yml"
-        label: "Footer"
-        name: "footer"
-        fields:
-          - {label: "Signoff Title", name: "signoff", widget: "string", required: false}
-          - {label: "Copyright", name: "copyright", widget: "string", required: false}
       - file: "site/config.toml"
         label: "Site Config"
         name: "config"
@@ -91,13 +47,3 @@ collections:
             widget: "object"
             fields:
               - {label: "Meta Description", name: "description", widget: "text"}
-  - name: "basic-pages"
-    identifier_field: title
-    label: "Basic Pages"
-    folder: "site/content"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Meta Title", name: "title", widget: "string"}
-      - {label: "Meta Description", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}

@@ -1,13 +1,26 @@
 {{ define "main" }}
-  <div class="w-full animate__animated animate__fadeIn flex flex-wrap">
 
-      {{ partial "banner" . }}
+  <video autoplay muted loop class="fixed object-cover h-screen md:w-screen">
+    <source src="{{ .Params.video }}" type="video/mp4">
+  </video>
 
-      {{ partial "brand" . }}
+  <div class="max-w-xl mx-auto px-5 md:px-0 animate__animated animate__fadeIn md:absolute md:top-1/2 md:left-1/2 md:transform md:-translate-y-1/2 md:-translate-x-1/2">
 
-      {{ partial "roadmap" . }}
+      <div class="pt-24 md:pt-0 pb-12 mx-auto text-center">
+        <img src="{{ .Params.image }}" alt="" class="w-48 mb-6 mx-auto">
+        <p class="mb-2 font-bold">{{ .Params.copy | markdownify}}</p>
+        <a href="{{ .Params.link}}">{{ .Params.email}}</a>
+      </div>
 
-      {{ partial "faq" . }}
+      <!-- Begin Constant Contact Active Forms -->
+      <script> var _ctct_m = "dceb4a13c83bb94440221d2be0c1320c"; </script>
+      <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+      <!-- End Constant Contact Active Forms -->
+
+      <!-- Begin Constant Contact Inline Form Code -->
+      <div class="ctct-inline-form" data-form-id="a3eb987f-c310-4922-9739-075704080008"></div>
+      <!-- End Constant Contact Inline Form Code -->
 
   </div>
+
 {{ end }}
