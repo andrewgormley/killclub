@@ -1,12 +1,12 @@
 {{ define "main" }}
 
-  <video autoplay muted loop class="fixed object-cover h-screen md:w-screen">
+  <video autoplay muted loop class="fixed object-cover h-screen md:w-screen opacity-75">
     <source src="{{ .Params.video }}" type="video/mp4">
   </video>
 
   <div class="max-w-xl mx-auto px-5 md:px-0 animate__animated animate__fadeIn md:absolute md:top-1/2 md:left-1/2 md:transform md:-translate-y-1/2 md:-translate-x-1/2 overflow-hidden">
 
-      <div class="pt-24 md:pt-0 pb-12 mx-auto text-center">
+      <div class="pt-24 md:pt-0 pb-12 mx-auto text-white text-center">
         <img src="{{ .Params.image }}" alt="" class="w-48 mb-6 mx-auto">
         <p class="mb-2 font-bold">{{ .Params.copy | markdownify}}</p>
         <a href="{{ .Params.link}}">{{ .Params.email}}</a>
