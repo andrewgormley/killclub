@@ -1,8 +1,8 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "KillClub. | Creative Production Company"
+title = "Kill Club | An independent production house"
 
 [params]
-description = "Creative Production Company"
+description = "An independent production house telling stories through film, music and commercials."
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
