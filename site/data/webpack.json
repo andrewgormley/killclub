@@ -8,6 +8,7 @@
   },
   "": {
     "html": "admin/index.html",
-    "keep": "fonts/.keep"
+    "keep": "fonts/.keep",
+    "json": "f24e4ae85c9dc8134110.hot-update.json"
   }
 }

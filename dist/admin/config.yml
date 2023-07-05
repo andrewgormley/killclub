@@ -31,6 +31,7 @@ collections:
           - {label: "Copy", name: "copy", widget: "string", required: false}
           - {label: "Email", name: "email", widget: "string", required: false}
           - {label: "Link", name: "link", widget: "string", required: false}
+          - {label: "Gif", name: "gif", widget: "image", required: false}
           - {label: "Background Video", name: "video", widget: "file", required: false}
   - name: "settings"
     label: "Settings"
